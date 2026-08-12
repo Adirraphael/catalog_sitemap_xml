@@ -1,0 +1,12 @@
+# Secrets - never commit
+.env
+
+# Generated output files - regenerated on every run, not source code
+catalog_sitemap.xml
+catalog_urls.txt
+indexed_catalog_pages.csv
+skipped_publications.csv
+
+# Python cache
+__pycache__/
+*.pyc
